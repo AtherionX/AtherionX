@@ -197,5 +197,5 @@ Set up webhooks to be notified of certain events, such as new downlink transacti
 
 ## Support and Documentation
 
-For more examples, advanced configurations, and additional endpoints, please refer to the [official AtherionX documentation](https://docs.atherionx.network) or contact support if you have any questions.
+For more examples, advanced configurations, and additional endpoints, please refer to the [official AtherionX documentation]([https://docs.atherionx.network](https://github.com/AtherionX/AtherionX/)) or contact support if you have any questions.
 ```
