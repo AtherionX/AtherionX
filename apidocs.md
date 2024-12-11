@@ -26,7 +26,7 @@ The API uses standard HTTP status codes. On error, a JSON response includes a `m
 ```json
 {
   "message": "Invalid frequency parameter.",
-  "documentation_url": "https://docs.atherionx.network/api"
+  "documentation_url": "[[https://docs.atherionx.network/api](https://github.com/AtherionX/AtherionX/](https://github.com/AtherionX/AtherionX/edit/main/apidocs.md))"
 }
 ```
 
