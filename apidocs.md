@@ -1,7 +1,7 @@
 
-# AtherionX Satellite Communication API
+# SatNodeX Satellite Communication API
 
-This document describes the AtherionX API for interacting with its global network of satellites. These satellites operate via Software-Defined Radio (SDR) links, enabling secure transmission and reception of transactions and telemetry data. The API provides structured endpoints to manage transmissions, query satellite states, and retrieve details about processed transactions.
+This document describes the SatNodeX API for interacting with its global network of satellites. These satellites operate via Software-Defined Radio (SDR) links, enabling secure transmission and reception of transactions and telemetry data. The API provides structured endpoints to manage transmissions, query satellite states, and retrieve details about processed transactions.
 
 All requests must be made over HTTPS, using standard HTTP verbs (GET, POST, etc.) and must include proper authentication credentials. The API returns JSON-encoded responses.
 
@@ -26,13 +26,13 @@ The API uses standard HTTP status codes. On error, a JSON response includes a `m
 ```json
 {
   "message": "Invalid frequency parameter.",
-  "documentation_url": "[(https://github.com/AtherionX/AtherionX/edit/main/apidocs.md)](https://github.com/AtherionX/AtherionX/](https://github.com/AtherionX/AtherionX/edit/main/apidocs.md))"
+  "documentation_url": "[(https://github.com/SatNodeX/SatNodeX/edit/main/apidocs.md)](https://github.com/SatNodeX/SatNodeX/](https://github.com/SatNodeX/SatNodeX/edit/main/apidocs.md))"
 }
 ```
 
 ## Core Concepts
 
-**Satellites:** AtherionX satellites orbit at various altitudes and provide SDR-based communication channels for sending and receiving transactions. Each satellite has a unique ID, coverage zones, and telemetry data accessible via the API.
+**Satellites:** SatNodeX satellites orbit at various altitudes and provide SDR-based communication channels for sending and receiving transactions. Each satellite has a unique ID, coverage zones, and telemetry data accessible via the API.
 
 **SDR Channels:** Communication is established by tuning to specific frequencies and bandwidths. Transactions, telemetry, and acknowledgments are exchanged through these channels.
 
@@ -197,5 +197,5 @@ Set up webhooks to be notified of certain events, such as new downlink transacti
 
 ## Support and Documentation
 
-For more examples, advanced configurations, and additional endpoints, please refer to the [official AtherionX documentation]([https://docs.atherionx.network](https://github.com/AtherionX/AtherionX/)) or contact support if you have any questions.
+For more examples, advanced configurations, and additional endpoints, please refer to the [official SatNodeX documentation]([[https://github.com/SatNodeX/SatNodeX/](https://github.com/SatNodeX/SatNodeX/)](https://github.com/SatNodeX/SatNodeX/)) or contact support if you have any questions.
 ```
